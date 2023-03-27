@@ -108,6 +108,7 @@ class UNOGame():
             self.screen.blit(text_start, start_rect)
             self.screen.blit(text_setting, set_rect)
             self.screen.blit(text_quit, quit_rect)
+            
             pygame.display.update()
             self.clock.tick(self.FPS)
             pygame.display.set_caption("UNO!")
